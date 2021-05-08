@@ -11,7 +11,7 @@ var socketIO = require('socket.io');
 
 app.use(express.static('public'))
 
-app.get("/", function(req, res){
+app.get("/rtc", function(req, res){
 	res.render("index.ejs");
 });
 
