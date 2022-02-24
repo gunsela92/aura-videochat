@@ -17,7 +17,7 @@ app.get("/", function(req, res){
 
 var server = http.createServer(app);
 
-server.listen(process.env.PORT || 7000);
+server.listen(process.env.PORT || 3000);
 
 var io = socketIO(server);
 
